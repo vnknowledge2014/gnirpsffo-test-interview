@@ -1,0 +1,26 @@
+{
+  "name": "codescreen",
+  "version": "1.0.0",
+  "description": "Code needs to be written in javascript.  We prefer ES6 over ES5. We prefer functional over classes. We prefer tests over no tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EventHubAU/codescreen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EventHubAU/codescreen/issues"
+  },
+  "homepage": "https://github.com/EventHubAU/codescreen#readme",
+  "dependencies": {
+    "jest": "^22.4.2"
+  }
+}
